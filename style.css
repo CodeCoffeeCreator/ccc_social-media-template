@@ -770,13 +770,3 @@ main .container .right {
     flex-direction: column;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .logo {
-    display: none;
-  }
-
-  nav {
-    width: 100vw;
-  }
-}

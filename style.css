@@ -145,8 +145,9 @@ main {
 }
 
 main .container {
+  max-width: 100vw;
   display: grid;
-  grid-template-columns: 18vw auto 20vw;
+  grid-template-columns: 17vw auto 25vw;
   column-gap: 2rem;
   position: relative;
 }
@@ -711,10 +712,6 @@ main .container .right {
 
   .left .btn {
     display: none;
-  }
-
-  .customize-theme .card {
-    width: 80vw;
   }
 }
 
